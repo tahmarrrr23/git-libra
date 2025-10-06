@@ -1,3 +1,6 @@
+import "@/styles/globals.css";
+import { Theme } from "@radix-ui/themes";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -5,7 +8,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <Theme>{children}</Theme>
+      </body>
     </html>
   );
 }
