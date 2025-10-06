@@ -1,3 +1,5 @@
+import { Box } from "@mui/material";
+
 export default async function Root() {
-  return <></>
+  return <Box>Root</Box>;
 }
