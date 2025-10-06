@@ -1,0 +1,30 @@
+{
+  "name": "git-libra",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "format": "biome format --write",
+    "lint": "biome check",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19",
+    "react-dom": "19"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
+    "@tsconfig/next": "^2.0.3",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.14",
+    "@types/react-dom": "19",
+    "sass": "^1.93.2",
+    "stylelint": "^16.24.0",
+    "stylelint-config-recess-order": "^7.3.0",
+    "stylelint-config-standard-scss": "^16.0.0",
+    "stylelint-order": "^7.0.0",
+    "typescript": "^5.9.2"
+  }
+}
